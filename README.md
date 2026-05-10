@@ -1,21 +1,6 @@
-# GossipGuard 🔐
+# GossipGuard 
 
 > A post-quantum secure inter-process communication system combining McEliece asymmetric encryption with AES-256 symmetric encryption, transmitted over UNIX signals.
-
----
-
-## Table of Contents
-
-- [Overview](#overview)
-- [Architecture](#architecture)
-- [How It Works](#how-it-works)
-- [Project Structure](#project-structure)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Performance](#performance)
-- [Security Analysis](#security-analysis)
-- [Limitations](#limitations)
-- [Academic Context](#academic-context)
 
 ---
 
@@ -257,18 +242,5 @@ The main bottleneck is signal-based transmission (~12.5 bytes/sec), which is inh
 
 ---
 
-## Academic Context
 
-Developed as part of the **Object-Oriented Programming and Advanced Python Algorithms for Security** module at:
-
-> École Nationale des Sciences Appliquées de Marrakech (ENSA Marrakech)  
-> Université Cadi Ayyad — Génie Cyber Défense & Systèmes de Télécommunication Embarquée  
-> Academic Year 2024–2025
-
-**Supervised by:** Pr. Ali Azougaghe
-
-**Team:** Youssra Zarri, Amal SAB, Hiba SIDINOU, Oussama BAGY, Noussair BOUANANI, Fatima Ezzahra ENNASSIRI
-
----
-
-*GossipGuard is a proof-of-concept educational project. Do not use in production environments.*
+made by yousra aka rainisveryswag
