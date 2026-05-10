@@ -1,6 +1,6 @@
 # GossipGuard 
 
-> A post-quantum secure inter-process communication system combining McEliece asymmetric encryption with AES-256 symmetric encryption, transmitted over UNIX signals.
+A post-quantum secure inter-process communication system combining McEliece asymmetric encryption with AES-256 symmetric encryption, transmitted over UNIX signals.
 
 ---
 
@@ -233,8 +233,6 @@ The main bottleneck is signal-based transmission (~12.5 bytes/sec), which is inh
 ---
 
 ## Limitations
-
-- **Linux/Unix only**: Relies on POSIX signals (`SIGUSR1`/`SIGUSR2`); not compatible with Windows
 - **Local IPC only**: Signals cannot cross machine boundaries
 - **Low throughput**: ~12.5 bytes/sec transmission speed due to signal delays
 - **No error detection on lost signals**: A dropped signal corrupts the message silently
